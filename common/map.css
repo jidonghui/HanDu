@@ -1,0 +1,103 @@
+
+/*网站导航*/
+.map{
+	width:1218px;
+	margin-left:112px;
+	height:150px;
+	position:absolute;
+	display:none;
+	z-index:999;
+}
+.sitemap{
+	width:1218px;
+	height:136px;
+	/*margin-left:112px;*/
+	display:flex;
+	justify-content:center;
+	border:1px solid #e5e5e5;
+	padding:7px 0px;
+	background:#fff;
+}
+.sitemap ul li{
+	float:left;
+	width:50%;
+	line-height:24px;
+}
+#menUl li{
+	width:100%;
+}
+#childUl li{
+	width:100%;
+}
+.sitemap li a{
+	font-size:12px;
+	color:#666666;
+}
+.sitemap li a:hover{
+	text-decoration:underline;
+}
+.sitemap h1{
+	font-size:16px;
+	margin-bottom:5px;
+}
+.sitemap div{
+	padding-left:32px;
+	padding-top:9px;
+}
+.sitemap div:nth-child(even){
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+}
+
+.sitemap .hot{
+	width:180px;
+}
+.hot h1{
+	color:#f66b03;
+}
+.hot li a:hover{
+	color:#f66b03;
+}
+
+.sitemap .women{
+	width:295px;
+}
+.women h1{
+	color:#ec0736;
+}
+.women li a:hover{
+	color:#ec0736;
+}
+
+.sitemap .men{
+	width:174px;
+}
+.men h1{
+	color:#2263d4;
+}
+.men li a:hover{
+	color:#2263d4;
+}
+
+.sitemap .children{
+	width:185px;
+}
+.children h1{
+	color:#5e8e3d;
+}
+.children li a:hover{
+	color:#5e8e3d;
+}
+
+.sitemap .help{
+	width:218px;
+}
+.help h1{
+	color:#686868;
+}
+.help li a:hover{
+	color:#686868;
+}
+
+
+

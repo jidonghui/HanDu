@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>衣舍-商品详情</title>
+		<link rel="stylesheet" type="text/css" href="common/public.css"/>
+		<link rel="stylesheet" type="text/css" href="common/nav.css"/>
+		<link rel="stylesheet" type="text/css" href="common/map.css"/>
+		<link rel="stylesheet" type="text/css" href="common/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/details.css"/>
+	</head>
+	<body>
+		<!--nav-->
+		<div class="nav">
+		</div>
+		<!--map-->
+		<div class="map" id="mapId" >
+		</div>
+		<!--header-->
+		<div class="header">
+			<div class="header_con">
+				<div class="logo">
+					<a href="#"><img src="img/logo_new.png"/></a>
+				</div>
+				<div class="search">
+					<form action="">
+						<input id="searchId" class="txt" type="text" value="减龄不做作的时髦Tee"/>
+						<input class="sear_btn" type="submit" value="搜 索"/>
+					</form>
+					<div class="hotSearch">
+						<a href="#">韩风女装</a>
+						<a href="#">可爱童装</a>
+						<a href="#">简约女装</a>
+						<a href="#">甜美女装</a>
+						<a href="#">时尚妈妈</a>
+						<a href="#">崔范锡系列</a>
+					</div>
+				</div>
+				<div class="ewm">
+					<img src="img/ewm.png"/>
+					<p>韩都衣舍私服搭配</p>
+				</div>
+			</div>
+		</div>
+		<!--sort-->
+		<div class="sort">
+			<div class="sort_con">
+				<div class="posBox">
+					<p class="specialP">全部商品分类</p>
+					<ul class="sortAll">
+						<li class="goodsList allGoods">
+							<h2><i><img src="img/tb1.png"/><img src="img/tb01.png" style="display:none;"/></i>全部商品分类</h2>
+							<a href="#">本周新品</a>
+							<a href="#">按价格</a>
+							<a href="#">按销量</a>
+							<span></span>
+						</li>
+						<li class="goodsList choice">
+							<h2><i><img src="img/tb2.png"/></i>精选推荐</h2>
+							<a href="#" class="specialA" style="color:#ff0000;">连衣裙</a>
+							<a href="#">潮流爆款</a>
+							<a href="#">品牌特惠</a>
+							<span></span>
+						</li>
+						<li class="goodsList girl">
+							<h2><i><img src="img/tb3.png"/></i>潮流女装</h2>
+							<a href="#" class="specialA" style="color:#ff0000;">短外套</a>
+							<a href="#">T恤</a>
+							<a href="#">牛仔裤</a>
+							<span></span>
+						</li>
+						<li class="goodsList kids">
+							<h2><i><img src="img/tb4.png"/></i>可爱童装</h2>
+							<a href="#">童装新品</a>
+							<a href="#">套装</a>
+							<a href="#">毛衣/针织衫</a>
+							<span></span>
+						</li>
+						<li class="goodsList mom">
+							<h2><i><img src="img/tb5.png"/></i>时尚妈妈</h2>
+							<a href="#">T恤</a>
+							<a href="#">针织衫</a>
+							<a href="#">衬衫</a>
+							<span></span>
+						</li>
+						<li class="goodsList boy">
+							<h2><i class="iconBox"><img src="img/tb6.png"/></i>韩风男装</h2>
+							<a href="#">上装</a>
+							<a href="#">下装</a>
+							<a href="#">全部商品</a>
+							<span></span>
+						</li>
+						<li class="goodsList star">
+							<h2><i><img src="img/tb7.png"/></i>明星同款</h2>
+							<a href="#">全智贤同款</a>
+							<a href="#">崔范锡系列</a>
+							<span></span>
+						</li>
+					</ul>
+					<!--分类-->
+					<div class="allType">
+						<div class="goodsType logoBox">
+							<a href="#"><img src="img/anma.png" alt="" /></a>
+							<a href="#"><img src="img/forqueen.png" alt="" /></a>
+							<a href="#"><img src="img/guoya.png" alt="" /></a>
+							<a href="#"><img src="img/hanyunyixiang.png" alt="" /></a>
+							<a href="#"><img src="img/Hn.png" alt="" /></a>
+							<a href="#"><img src="img/hp.png" alt="" /></a>
+							<a href="#"><img src="img/hstyle.png" alt="" /></a>
+							<a href="#"><img src="img/ht.png" alt="" /></a>
+							<a href="#"><img src="img/mini.png" alt="" /></a>
+							<a href="#"><img src="img/nana.png" alt="" /></a>
+							<a href="#"><img src="img/nibbuns.png" alt="" /></a>
+							<a href="#"><img src="img/sulv.png" alt="" /></a>
+							<a href="#"><img src="img/ytxz.png" alt="" /></a>
+							<a href="#"><img src="img/zg.png" alt="" /></a>
+						</div>
+						<div class="goodsType discounts">
+							<ul>
+								<p>特惠精选</p>
+								<li><a href="#">清仓特惠</a></li>
+								<li><a href="#" style="border:none;">爆款特惠</a></li>
+							</ul>
+							<ul>
+								<p>潮流新品</p>
+								<li><a href="#" style="color:#ff0000;">2017秋装新品</a></li>
+								<li><a href="#">原创新品</a></li>
+								<li><a href="#">连衣裙</a></li>
+								<li><a href="#">卫衣</a></li>
+								<li><a href="#" style="border:none;">毛针织衫</a></li>
+							</ul>
+							<ul style="height:68px;">
+								<p>类目新品</p>
+								<li><a href="#"style="color:#ff0000;">连衣裙</a></li>
+								<li><a href="#">牛仔裤</a></li>
+								<li><a href="#">衬衫</a></li>
+								<li><a href="#">卫衣</a></li>
+								<li><a href="#"style="color:#ff0000;">T恤</a></li>
+								<li><a href="#">休闲裤</a></li>
+								<li><a href="#">半身裙</a></li>
+								<li><a href="#">套装</a></li>
+								<li><a href="#">羽绒服</a></li>
+								<li><a href="#">毛呢外套</a></li>
+								<li><a href="#">棉衣</a></li>
+								<li><a href="#" style="border:none;">毛针织衫</a></li>
+							</ul>
+							<ul>
+								<p>爆款集锦</p>
+								<li><a href="#"style="color:#ff0000;">2017秋装爆款</a></li>
+								<li><a href="#">女装爆款</a></li>
+								<li><a href="#">男装爆款</a></li>
+								<li><a href="#">童装爆款</a></li>
+								<li><a href="#" style="border:none;">妈妈装爆款</a></li>
+							</ul>
+							<ul style="height:68px;">
+								<p>百变风格</p>
+								<li><a href="#"style="color:#ff0000;">潮流韩范</a></li>
+								<li><a href="#">纯色</a></li>
+								<li><a href="#">优雅OL</a></li>
+								<li><a href="#">印花</a></li>
+								<li><a href="#">甜美清新</a></li>
+								<li><a href="#">条纹</a></li>
+								<li><a href="#">度假出游</a></li>
+								<li><a href="#">拼接</a></li>
+								<li><a href="#">复古</a></li>
+								<li><a href="#">字母</a></li>
+								<li><a href="#">修身</a></li>
+								<li><a href="#">几何</a></li>
+								<li><a href="#">宽松</a></li>
+								<li><a href="#" style="border:none;">不规则</a></li>
+							</ul>
+						</div>
+						<div class="goodsType discounts girlBox">
+							<ul>
+								<p>韩风时尚HSTYLE</p>
+								<li><a href="#">T恤</a></li>
+								<li><a href="#">衬衫</a></li>
+								<li><a href="#">套装</a></li>
+								<li><a href="#">连衣裙</a></li>
+								<li><a href="#">半身裙</a></li>
+								<li><a href="#">牛仔裤</a></li>
+								<li><a href="#">休闲裤</a></li>
+								<li><a href="#">羽绒服</a></li>
+								<li><a href="#">毛呢外套</a></li>
+								<li><a href="#">棉衣</a></li>
+								<li><a href="#" style="border:none;">毛针织衫</a></li>
+							</ul>
+							<ul>
+								<p>时尚名媛SONEED</p>
+								<li><a href="#">T恤</a></li>
+								<li><a href="#">衬衫</a></li>
+								<li><a href="#">毛针织衫</a></li>
+								<li><a href="#">卫衣/绒衫</a></li>
+								<li><a href="#">毛针织衫</a></li>
+								<li><a href="#">风衣</a></li>
+								<li><a href="#">毛呢外套</a></li>
+								<li><a href="#">连衣裙</a></li>
+								<li><a href="#">牛仔裤</a></li>
+								<li><a href="#" style="border:none;">休闲裤</a></li>
+							</ul>
+							<ul>
+								<p>欧美时尚 尼班诗</p>
+								<li><a href="#">T恤</a></li>
+								<li><a href="#">衬衫</a></li>
+								<li><a href="#">蕾丝衫/雪纺纱</a></li>
+								<li><a href="#">卫衣/绒衫</a></li>
+								<li><a href="#">毛针织衫</a></li>
+								<li><a href="#">风衣</a></li>
+								<li><a href="#">毛呢外套</a></li>
+								<li><a href="#">牛仔裤</a></li>
+								<li><a href="#">休闲裤</a></li>
+								<li><a href="#">打底裤</a></li>
+								<li><a href="#" style="border:none;">连衣裙</a></li>
+							</ul>
+							<ul>
+								<p>甜美少女NanaDay</p>
+								<li><a href="#">毛针织衫</a></li>
+								<li><a href="#">T恤</a></li>
+								<li><a href="#">短外套</a></li>
+								<li><a href="#">衬衫</a></li>
+								<li><a href="#">棉衣棉服</a></li>
+								<li><a href="#">卫衣/绒衫</a></li>
+								<li><a href="#">套装</a></li>
+								<li><a href="#">连衣裙</a></li>
+								<li><a href="#">半身裙</a></li>
+								<li><a href="#">毛呢外套</a></li>
+								<li><a href="#">羽绒服</a></li>
+								<li><a href="#" style="border:none;">裤装</a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="img/anma.png" alt="" /></a></li>
+								<li><a href="#"><img src="img/forqueen.png" alt="" /></a></li>
+								<li><a href="#"><img src="img/guoya.png" alt="" /></a></li>
+								<li><a href="#"><img src="img/hanyunyixiang.png" alt="" /></a></li>
+								<li><a href="#"><img src="img/Hn.png" alt="" /></a></li>
+								<li><a href="#"><img src="img/hp.png" alt="" /></a></li>
+							</ul>
+						</div>
+						<div class="goodsType discounts girlBox childBox">
+							<ul>
+								<p>韩风时尚Minizaru</p>
+								<li><a href="#">T恤</a></li>
+								<li><a href="#">衬衫</a></li>
+								<li><a href="#">卫衣</a></li>
+								<li><a href="#">套装</a></li>
+								<li><a href="#">毛衣/针织衫</a></li>
+								<li><a href="#">毛呢/外套</a></li>
+								<li><a href="#">羽绒服饰</a></li>
+								<li><a href="#">半身裙</a></li>
+								<li><a href="#">连衣裙</a></li>
+								<li><a href="#">休闲裤</a></li>
+								<li><a href="#">牛仔裤</a></li>
+								<li><a href="#">打底裤</a></li>
+								<li><a href="#">短裤</a></li>
+								<li><a href="#" style="border:none;">马甲</a></li>
+							</ul>
+							<ul>
+								<p>欧美时尚HoneyPig</p>
+								<li><a href="#">T恤</a></li>
+								<li><a href="#">衬衫</a></li>
+								<li><a href="#">卫衣</a></li>
+								<li><a href="#">毛衣/针织衫</a></li>
+								<li><a href="#">外套/夹克/大衣</a></li>
+								<li><a href="#">套装</a></li>
+								<li><a href="#">半身裙</a></li>
+								<li><a href="#">连衣裙</a></li>
+								<li><a href="#">休闲裤</a></li>
+								<li><a href="#">牛仔裤</a></li>
+								<li><a href="#">打底裤</a></li>
+								<li><a href="#" style="border:none;">短裤</a></li>
+							</ul>
+							<ul>
+								<p>东方简约 果芽</p>
+								<li><a href="#">T恤/吊带衫</a></li>
+								<li><a href="#">衬衫</a></li>
+								<li><a href="#">卫衣</a></li>
+								<li><a href="#">毛衣/针织衫</a></li>
+								<li><a href="#">外套</a></li>
+								<li><a href="#">裤子</a></li>
+								<li><a href="#">半身裙</a></li>
+								<li><a href="#">连衣裙</a></li>
+								<li><a href="#" style="border:none;">棉衣/棉服</a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="img/anma.png" alt="" /></a></li>
+								<li><a href="#"><img src="img/forqueen.png" alt="" /></a></li>
+								<li><a href="#"><img src="img/guoya.png" alt="" /></a></li>
+								<li><a href="#"><img src="img/hanyunyixiang.png" alt="" /></a></li>
+							</ul>
+						</div>
+						<div class="goodsType discounts girlBox momBox">
+							<ul>
+								<p>妈妈装</p>
+								<li><a href="#">T恤</a></li>
+								<li><a href="#">衬衫</a></li>
+								<li><a href="#">外套</a></li>
+								<li><a href="#">毛衣/针织</a></li>
+								<li><a href="#">风衣</a></li>
+								<li><a href="#">棉衣/棉服</a></li>
+								<li><a href="#">马甲</a></li>
+								<li><a href="#">裤子</a></li>
+								<li><a href="#">连衣裙</a></li>
+								<li><a href="#">半身裙</a></li>
+								<li><a href="#" style="border:none;">套装</a></li>
+							</ul>
+							<ul>
+								<li><a href="#"><img src="img/hanyunyixiang.png" alt="" /></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<ul class="sortRight">
+					<li style="margin-left:17px;margin-right:34px;"><a href="#">2017秋装新品</a></li>
+					<li><a href="#">团购批发</a></li>
+					<li style="margin-left:512px"><a href="#">会员俱乐部</a></li>
+					<li id="zxId">
+						<a href="#">韩都资讯</a>
+						<ul id="sjId" class="sheji">
+							<li style="border-bottom:1px solid #dddddd;"><a href="#">韩都设计</a></li>
+							<li><a href="#">品牌设计</a></li>
+						</ul>
+					</li>
+					<li style="width:90px;"><a href="#">招兵买马</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--currentpos-->
+		<div class="currentPos">
+			<div class="currentPos_con">
+				您所在的位置
+				<span>></span>
+				<a href="">韩都衣舍</a>
+				<span>></span>
+				<a href="">nanaday娜娜日记</a>
+				<span>></span>
+				<a href="">上装</a>
+				<span>></span>
+				<a href="">卫衣/绒衫</a>
+				<span>></span>
+				娜娜日记2017秋装新款女装红色宽松鹿角可爱卫衣学生NL7815嬛0823
+			</div>
+		</div>
+		<!--content-->
+		<div class="content">
+			<div class="content_con">
+				<div class="hotSort">
+					<h1></h1>
+					<ul class="hotSortUl">
+						<li><a href="">毛针织衫</a></li>
+						<li><a href="">卫衣/绒衫</a></li>
+						<li><a href="">套装</a></li>
+						<li><a href="">毛呢外套</a></li>
+						<li><a href="">T恤</a></li>
+						<li><a href="">短外套</a></li>
+						<li><a href="">棉衣/棉服</a></li>
+						<li><a href="">蕾丝衫/雪纺衫</a></li>
+						<li><a href="">衬衫</a></li>
+						<li><a href="">羽绒服</a></li>
+						<li><a href="">马甲/马夹</a></li>
+					</ul>
+					<a class="newGoodsImg" href="">
+						<img src="img/1490249473040110030.jpg"/>
+					</a>
+					<div class="newGoodsDiv">
+						<h1></h1>
+						<div class="bigUl">
+							<ul class="newGoodsUl">
+								<li><a href="#"><img src="img/20170823040800_NL7815.jpg"/></a></li>
+								<li><a href="#">娜娜日记2017秋装新</a></li>
+								<li class="newPrice">￥158.00<span>￥238.00</span></li>
+							</ul>
+							<ul class="newGoodsUl">
+								<li><a href="#"><img src="img/20170812040832_NK7655.jpg"/></a></li>
+								<li><a href="#">娜娜日记2017秋装新</a></li>
+								<li class="newPrice">￥568.00<span>￥898.00</span></li>
+							</ul>
+							<ul class="newGoodsUl">
+								<li><a href="#"><img src="img/20170823040825_NL7190.jpg"/></a></li>
+								<li><a href="#">娜娜日记2017秋装新</a></li>
+								<li class="newPrice">￥116.00<span>￥178.00</span></li>
+							</ul>
+							<ul class="newGoodsUl">
+								<li><a href="#"><img src="img/20170823040858_NL7909.jpg"/></a></li>
+								<li><a href="#">娜娜日记2017秋装新</a></li>
+								<li class="newPrice">￥106.00<span>￥168.00</span></li>
+							</ul>
+							<ul class="newGoodsUl">
+								<li><a href="#"><img src="img/20170829040834_NT6915.jpg"/></a></li>
+								<li><a href="#">娜娜日记2017秋装新</a></li>
+								<li class="newPrice">￥148.00<span>￥228.00</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="newGoodsDiv hotSaleDiv">
+						<h1></h1>
+						<div class="bigUl">
+							<ul class="newGoodsUl">
+								<li><a href="#"><img src="img/20170829040826_NK7132.jpg"/></a></li>
+								<li><a href="#">娜娜日记2017秋装新</a></li>
+								<li class="newPrice">￥158.00<span>￥238.00</span></li>
+							</ul>
+							<ul class="newGoodsUl">
+								<li><a href="#"><img src="img/20170823040807_NP6856.jpg"/></a></li>
+								<li><a href="#">娜娜日记2017秋装新</a></li>
+								<li class="newPrice">￥568.00<span>￥898.00</span></li>
+							</ul>
+							<ul class="newGoodsUl">
+								<li><a href="#"><img src="img/20170829040836_NT6285.jpg"/></a></li>
+								<li><a href="#">娜娜日记2017秋装新</a></li>
+								<li class="newPrice">￥116.00<span>￥178.00</span></li>
+							</ul>
+							<ul class="newGoodsUl">
+								<li><a href="#"><img src="img/20170829040839_NL7895.jpg"/></a></li>
+								<li><a href="#">娜娜日记2017秋装新</a></li>
+								<li class="newPrice">￥106.00<span>￥168.00</span></li>
+							</ul>
+							<ul class="newGoodsUl">
+								<li><a href="#"><img src="img/20170318040326_NP6203.jpg"/></a></li>
+								<li><a href="#">娜娜日记2017秋装新</a></li>
+								<li class="newPrice">￥148.00<span>￥228.00</span></li>
+							</ul>
+						</div>
+					</div>
+					<a class="newGoodsImg" href="">
+						<img src="img/1439186924043865480.jpg"/>
+					</a>
+				</div>
+				<div class="goods">
+					<div class="goodsTop">
+						<div class="goodsTLeft">
+							<div class="imgBox">
+								<img src="img/20170823040800_NL7815.jpg"/>
+							</div>
+							<ul class="imgUl">
+								<li>
+									<span></span>
+									<img src="img/20170823040800_NL7815.jpg" alt="" />
+								</li>
+								<li>
+									<span></span>
+									<img src="img/1503432660094691237.jpg" alt="" />
+								</li>
+								<li>
+									<span></span>
+									<img src="img/1503432661456156113.jpg" alt="" />
+								</li>
+								<li>
+									<span></span>
+									<img src="img/1503432661943628772.jpg" alt="" />
+								</li>
+								<li>
+									<span></span>
+									<img src="img/1503432661646631887.jpg" alt="" />
+								</li>
+							</ul>
+							<ul class="shareUl">
+								<li class="shoucang">
+									<a href="">收藏（1）</a>
+								</li>
+								<li class="fenxiang">
+									<span class="shareSpan">分享到：</span>
+									<a class="qqZone" href=""></a>
+									<a class="sina" href=""></a>
+									<a class="tx" href=""></a>
+									<a class="ren" href=""></a>
+									<a class="wy" href=""></a>
+									<a class="shareCount" href="">0</a>
+									<div class="shareBox">
+										<h2>分享到</h2>
+										<ul class="shareLogo">
+											<li><a href="">一键分享</a></li>
+											<li><a href="">QQ空间</a></li>
+											<li><a href="">新浪微博</a></li>
+											<li><a href="">百度云收藏</a></li>
+											<li><a href="">人人网</a></li>
+											<li><a href="">腾讯微博</a></li>
+											<li><a href="">百度相册</a></li>
+											<li><a href="">开心网</a></li>
+											<li><a href="">腾讯朋友</a></li>
+											<li><a href="">百度贴吧</a></li>
+											<li><a href="">豆瓣网</a></li>
+											<li><a href="">搜狐微博</a></li>
+											<li><a href="">百度新首页</a></li>
+											<li><a href="">QQ好友</a></li>
+											<li><a href="">和讯微博</a></li>
+											<li><a href="">更多...</a></li>
+										</ul>
+										<p><a href="">百度分享</a></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="goodsTRight">
+							<div class="bigMirrorDiv">
+								
+							</div>
+							<div class="goodsMsg">
+								<h3>娜娜日记2017秋装新款女装红色宽松鹿角可爱卫衣学生NL7815嬛0823</h3>
+								<a class="des" href="">2017秋冬新品-全场满199包邮【提交订单系统自动满减】199减20/满299减50/满499减100！~</a>
+								<p>
+									商品货号：
+									<span style="text-indent:20px;">NL7815</span>
+									&nbsp;&nbsp;&nbsp;&nbsp;
+									&nbsp;&nbsp;&nbsp;&nbsp;
+									售价：
+									<span class="highPrice" style="color:#666666;text-decoration:line-through;">￥238.00</span>
+								</p>
+								<p>
+									促  销  价：
+									<span class="lowPrice" style="color:#c80a28;font-size:16px;font-weight:bolder;text-indent:20px;">158.00</span>
+								</p>
+								<p>
+									销  &nbsp;&nbsp;&nbsp;&nbsp; 量：
+									<span style="color:#393939;text-indent:20px;">7件</span>
+								</p>
+								<p>
+									用户评分：
+									<span style="width:74px;height:12px;background:url(img/star-s.png) 0 -15px no-repeat;"></span>
+									<span>（共有<span style="color:#c80a28;margin-left:8px;">0</span>条评论）</span>
+								</p>
+							</div>
+							<div class="goodsChiose">
+								<span>尺  &nbsp;&nbsp;&nbsp;&nbsp; 码：</span>
+								<ul class="sizeUl">
+									<li>XS<span style="display:inline-block;"></span></li>
+									<li>S<span></span></li>
+									<li>M<span></span></li>
+									<li>L<span></span></li>
+								</ul>
+								<span>颜  &nbsp;&nbsp;&nbsp;&nbsp; 色：</span>
+								<ul class="colorUl">
+									<li>红色<span style="display:inline-block;"></span></li>
+								</ul>
+								<span>数  &nbsp;&nbsp;&nbsp;&nbsp; 量：</span>
+								<div class="countDiv">
+									<input class="countBtn minusBtn" type="button" value="-">
+									<input class="countInput" type="text" value="1"  maxlength="3"/>
+									<input class="countBtn plusBtn" type="button" value="+">
+									<span>（库存738件）</span>
+								</div>
+								<p>您选择了&nbsp;&nbsp;<span class="chima">[xs]</span>&nbsp;<span class="yanse">[红色]</span></p>
+								<p>
+									<a class="buy" href=""></a>
+									<a class="addCart" href="javascript:;"></a>
+								</p>
+							</div>
+							<div class="other">
+								<p>
+									<a href="">在线客服：<span></span></a>
+									<span class="ewmSpan">
+										官方微信：
+										<img src="img/weixin.png"/>
+										<img src="img/sys.gif"/>
+										<img class="goodsEwm" src="img/ew_0328.jpg"/>
+									</span>
+								</p>
+								<p>
+									支付方式：
+									<a href="">支付宝</a>
+									<a href="">网上银行付款</a>
+									<span class="fwcn">
+										服务承诺：
+										<span style="background-position: 0px 0px;"></span>
+										<span style="background-position: -31px 0px;"></span>
+										<span style="background-position: -62px 0px;"></span>
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="goodsCenter">
+						<ul class="centerUl">
+							<li class="currentLi">商品详情</li>
+							<li>评论详情<span>（0）</span></li>
+							<li>常见问题</li>
+						</ul>
+						<a class="nowAdd" href="">加入购物车</a>
+					</div>
+					<div class="goodsBot">
+						<div class="detailsDiv">
+							<div class="brand">
+								<span>品牌：NanaDay娜娜日记</span>
+								<span>货号：NL7815</span>
+								<span>尺码：XS S M L</span>
+								<span>颜色：红色</span>
+							</div>
+							<div class="allDetailsImg">
+								<img src="img/TB2fawgXIrHK1JjSszbXXXbvVXa_!!2073641741.jpg"/>
+								<img src="img/TB2FM09XCR8LKJjSsppXXXhtVXa_!!2073641741.jpg"/>
+								<img src="img/TB2drz.XMvGK1Jjy0FaXXb7lpXa_!!2073641741.jpg"/>
+							</div>
+							<p>
+								<img src="img/TB2lLtrXm3PL1JjSZFxXXcBBVXa_!!2073641741.jpg"/>
+								<img src="img/TB2pdlEXiwIL1JjSZFsXXcXFFXa_!!2073641741.jpg"/>
+								<img src="img/TB2qi0DXosIL1JjSZPiXXXKmpXa_!!2073641741.jpg"/>
+							</p>
+							<div class="allImgBot">
+								<img src="img/TB2SwH_XL_HK1Jjy1zcXXXb7XXa_!!2073641741.jpg"/>
+								<img src="img/TB2oDd6XCR8LKJjSsppXXXhtVXa_!!2073641741.jpg"/>
+								<img src="img/TB20pxkXKMxLeJjSspoXXaN.VXa_!!2073641741.jpg"/>
+								<img src="img/TB2cQH_XTzGK1JjSspnXXaVgXXa_!!2073641741.jpg"/>
+								<img src="img/TB2KXoaXMvGK1Jjy0FdXXaxzVXa_!!2073641741.jpg"/>
+								<img src="img/TB2bvxyXeEJL1JjSZFGXXa6OXXa_!!2073641741.jpg"/>
+								<img src="img/TB2C7dvXnZKL1JjSZFIXXX_DFXa_!!2073641741.jpg"/>
+								<img src="img/TB2MKRNXhZIL1JjSZFNXXXupXXa_!!2073641741.jpg"/>
+								<img src="img/TB2ZmohXL_HK1JjSszhXXacIVXa_!!2073641741.jpg"/>
+								<img src="img/TB2sbIaXMbHK1JjSszdXXcIyVXa_!!2073641741.jpg"/>
+								<img src="img/TB2YQ0mXKMxLeJjy0FjXXcDbVXa_!!2073641741.jpg"/>
+								<img src="img/TB2mFe7XxTxLuJjy1XcXXb.gXXa_!!2073641741.jpg"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--侧边悬浮-->
+		<ul class="aside">
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li><a href="#"></a></li>
+			<li></li>	
+		</ul>
+		<!--footer-->
+		<div class="footer">
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script src="js/tools.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/eventTools.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bigMirror.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/cookieTools.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/details.js" type="text/javascript" charset="utf-8"></script>

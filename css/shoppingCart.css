@@ -1,0 +1,149 @@
+/*header*/
+.cartHeader { width: 100%; height: 76px; }
+
+.cartHeader_con { width: 1200px; height: 44px; padding-top: 32px; margin: 0 auto; }
+
+.headerLeft { width: 420px; height: 100%; float: left; }
+
+.headerLeft a { float: left; width: 420px; height: 44px; background: url(../img/cart_img.png) no-repeat -15px -17px; }
+
+.headerRight { width: 780px; height: 44px; background: url(../img/cart_img.png) no-repeat 66px -76px; float: left; }
+
+/*warmTip*/
+.warmTip { width: 100%; height: 46px; }
+
+.warmTip_con { width: 1200px; height: 30px; line-height: 27px; padding-top: 16px; margin: 0 auto; background: url(../img/warm.png) no-repeat left bottom; font-size: 12px; text-indent: 7px; }
+
+.warmTip_con span { color: #fe0032; }
+
+.warmTip_con a { color: #fe0032; }
+
+/*cartList*/
+.cartList { width: 100%; }
+
+.cartList_con { width: 1200px; padding-bottom: 45px; margin: 0 auto; border-bottom: 1px solid #dddddd; }
+
+.cartList_con .listTop { width: 100%; height: 36px; line-height: 36px; background: #d8d7d7; }
+
+.listTop ul li { float: left; width: 138px; text-align: center; font-size: 14px; border-left: 1px solid #fff; }
+
+.listTop ul li:first-child { width: 50px; border: none; }
+
+.listTop ul li:nth-child(3) { width: 250px; }
+
+.cartList_con .listBot { width: 1199px; height: 108px; padding: 20px 0; border: 1px solid #dddddd; border-top: none; display: none; }
+
+.listCenter { width: 502px; height: 108px; margin: 0 auto; overflow: hidden; }
+
+.listCenter .cartImg { width: 72px; height: 89px; background: url(../img/gouwuc.png) no-repeat; float: left; }
+
+.listCenter .selectGoods { float: left; padding: 30px 0 0 20px; }
+
+.selectGoods p { font-size: 16px; color: #333333; line-height: 28px; }
+
+.selectGoods a { font-size: 14px; color: #c80a28; text-decoration: underline; }
+
+.cart { border: 1px solid #cccccc; }
+
+.cart .brandTitle { height: 20px; line-height: 20px; color: #333333; font-size: 14px; padding: 10px; }
+
+.brandTitle span { display: inline-block; margin-left: 10px; }
+
+.cart .pinkDiv { height: 30px; line-height: 30px; background: #feeff2; padding: 0 10px; }
+
+.pinkDiv span:nth-child(1) { float: left; margin: 3px 8px; width: 44px; height: 24px; background: url(../img/cart_img.png) no-repeat -16px -283px; }
+
+.pinkDiv span:nth-child(2) { font-size: 12px; float: left; margin: 0 660px 0 5px; }
+
+.pinkDiv span:nth-child(3) { float: left; width: 106px; height: 20px; line-height: 20px; text-align: center; background: #ed6c70; font-size: 12px; color: #ffffff; margin: 5px 0; }
+
+.oneGood { height: 190px; border-bottom: 1px solid #e8e8e8; }
+
+.oneGood ul { height: 100%; }
+
+.oneGood ul li { float: left; text-align: center; width: 138px; height: 170px; padding: 10px 0; }
+
+.oneGood ul li:nth-child(2n) { border-right: 1px solid #e8e8e8; border-left: 1px solid #e8e8e8; }
+
+.oneGood ul li a:hover { text-decoration: underline; }
+
+.oneGood ul .selectLi { width: 50px; height: 170px; line-height: 170px; }
+
+.oneGood .smallImg img { width: 112px; height: 112px; margin-top: 30px; border: 1px solid #e8e8e8; }
+
+.oneGood .miaoshu { width: 230px; height: 70px; text-align: left; padding: 60px 10px; }
+
+.oneGood .miaoshu p a { font-size: 14px; color: #565656; }
+
+.oneGood .miaoshu span { font-size: 12px; float: left; margin-top: 10px; margin-right: 10px; }
+
+.oneGood .priceLi { padding: 62px 0; height: 67px; }
+
+.oneGood .priceLi p { font-size: 10px; color: #999999; text-decoration: line-through; margin: 10px 0; }
+
+.oneGood .priceLi .unitPrice { font-size: 14px; color: #000; }
+
+.oneGood .countLi { padding: 85px 0; height: 20px; }
+
+.oneGood .countLi .changeCount { width: 12px; height: 12px; line-height: 12px; border: 1px solid #a7a6ab; outline: none; background: #fff; margin-top: 2px; cursor: pointer; }
+
+.oneGood .countLi .goodsCount { width: 36px; height: 20px; border: 1px solid #cccccc; outline: none; margin: 0 5px; text-align: center; }
+
+.oneGood .fuhao { font-size: 16px; color: #bf0000; display: block; margin-top: 76px; }
+
+.oneGood .nowPrice { font-size: 16px; color: #bf0000; }
+
+.oneGood .caozuo { padding: 85px 0; height: 20px; }
+
+.oneGood .caozuo span { display: block; font-size: 12px; color: #565656; cursor: pointer; }
+
+.oneGood .caozuo span:hover { text-decoration: underline; }
+
+.oneGood li:last-child { width: 200px; border: none; }
+
+.oneGood li:last-child a { font-size: 12px; color: #c80a28; display: block; margin: 55px auto; }
+
+.cart .cartBot { margin: 20px 0 40px; height: 98px; border: 1px solid #cccccc; border-left: none; border-right: none; }
+
+.cartBot ul { float: right; margin-right: 20px; }
+
+.cartBot ul li { line-height: 30px; text-align: right; font-size: 12px; }
+
+.cartBot ul li:first-child p { float: left; }
+
+.cartBot ul li .shuliang { margin-right: 30px; }
+
+.cartBot ul li .shuliang span { color: #ff0032; }
+
+.cartBot ul li .money { display: inline-block; width: 80px; text-align: right; }
+
+.cart .cartSum { height: 46px; line-height: 46px; border: 1px solid #cccccc; border-left: none; border-right: none; margin-bottom: 20px; text-align: right; font-size: 12px; }
+
+.cartSum .bigFuhao { float: right; margin-left: 20px; margin-right: 10px; font-size: 22px; color: #bf0000; }
+
+.cart .shopOrPay { height: 60px; }
+
+.shopOrPay input { cursor: pointer; background: url(../img/cart_img.png) no-repeat; border: none; outline: none; }
+
+.shopOrPay .shopBtn { width: 119px; height: 36px; background-position: -16px -747px; float: left; }
+
+.shopOrPay .payBtn { width: 157px; height: 36px; background-position: -16px -361px; float: right; }
+
+/*recommend*/
+.recommend { width: 100%; height: 368px; margin: 38px 0 25px; }
+
+.recommend_con { width: 1200px; height: 368px; margin: 0 auto; }
+
+.recommend_con .recTop { height: 37px; background: #d8d7d7; }
+
+.recTop p { width: 160px; line-height: 37px; font-size: 16px; margin-left: 20px; }
+
+.recTop span { float: right; width: 350px; height: 26px; line-height: 26px; text-align: center; margin-top: -31px; margin-right: 5px; }
+
+.recTop span a { float: left; width: 50%; font-size: 14px; }
+
+.recTop span a:first-child { color: #8a8a8a; background: #ffffff; }
+
+.recTop span a:last-child { color: #ffffff; background: #8a8a8a; }
+
+.recommend_con .recBot { height: 330px; border: 1px solid #dddddd; border-top: none; }
